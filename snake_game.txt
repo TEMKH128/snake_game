@@ -1,0 +1,14 @@
+# https://medium.com/towards-entrepreneurship/building-a-snake-game-in-python-9f5293285e10
+
+Game & Rules:
+* Snake moves (controlled by keypad), eats fruit (Increases score).
+* If Snake hits border or hits own body, it dies.
+* High score (tracked, also displays user) and score displayed.
+* Game Music (Can be silenced), Pause button, quit button.
+* Diff. game speed options (Diff. High Scores).
+
+* Ability to start game again.
+* Pause and Unpause using spacebar
+
+# Give credit - fruit.png, sounds, 
+Sound 1: Angry Birds.
