@@ -144,12 +144,13 @@ def increase_speed(game_values, level, point_value):
     """
     Mocks game levels by increasing speed of snake once 
     certain point levels are reached. Done until level 7 is reached.
+    Increases every 120 points.
     return game_values dictionary.
     """
     if level <= 6:
-        if game_values["score"] >= point_value + 150:
+        if game_values["score"] >= point_value + 120:
             game_values["snake"]["snake_speed"] += 5
             level += 1
-            point_value += 150
+            point_value += 120
     
     return game_values, level, point_value 

@@ -7,7 +7,10 @@ import initialisation_display as id
 def help_instructions():
     """Displays available commands/keypresses to user."""
     help = """
-Snake Moves Continously in Direction its Facing.
+The Snake Moves Continously in Direction its Facing, As you Consume Fruit
+your Points Increase, However your Body gets Longer too. Once Certain
+Point Levels have been Achieved the Speed of the Game shall Increase, 
+Don't Blink or You'll Miss the Action!.
 
 Available Commands:
   * Up (keypad): Moves Snake Up.
@@ -123,7 +126,7 @@ def run_game(help_display, sound_file):
 def main():
     """Controls main game loop."""
     # Display welcome message help instructions.
-    print("Welcome to Snake!")
+    print("\n"+ "*" * 80 + "\n\nWelcome to Snake!")
     help_display = help_instructions()
     print(help_display)
 
