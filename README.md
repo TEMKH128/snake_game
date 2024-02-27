@@ -1,18 +1,30 @@
-## Game & Rules:
-  * Snake Moves (controlled by keypad), eats fruit (Increases score).
-  * If snake hits border of screen or hits/eats its own body player loses.
-  * High score is tracked and displayed on the screen.
-  * Game plays music (which can be paused whilst playing), can be paused, etc.
-  * Snake increases speed at certain point levels (E.g. every 120 points), thus increasing the difficulty of the game.
+### Description/Features:
+##
+* Snake moves (controlled by keypad) and eats fruits (Increases score).
+* Game gets more difficult by increasing speed of the snake every 120 points.
+* If Snake hits border of screen or hits/eats itself player loses.
+* High Score is tracked and displayed on the screen.
+* Game plays music (Credit: Angry Birds Theme Song), which can be muted.
 
-  * Available Commands: 1) Up (keypad) - Moves Snake Up, 2) Down (keypad) - Moves Snake Down, 3) Left (keypad) - Moves Snake Left, 4) Right (keypad) - Moves Snake Right, 5) Spacebar - Pauses and Unpauses Game, 6) H-key (When Game Paused) - Displays these instructions, 7) M-key - Mutes/Unmutes Game Music.
+#### Available Commands:
+| Command/Move                   | Description                      |
+|:-------------------------------|:---------------------------------|
+| Up/Down-Keypad                 | Moves Snake up/down              |
+| Left/Right-Keypad              | Moves Snake Left/Right           |
+| Spacebar                       | Pauses/Unpauses Game             |
+| H-Keypress (When Game Paused)  | Displays These Instruction (Help)|
+| M-Keypress                     | Mutes/Unmutes Music              |
+  
+### Technology/Tools:
+##
+* Tools, Technologies Used: Python3, Pygame, Random, Json, Time.
 
+### Running Application:
+##
+* Running Game: python3 snake.py
 
-## Pre-Requisites & Running Program:
-  * Modules used: Pygame, Random, Json, Time
-  * Installing Pygame (Terminal) - pip install pygame
-  * Running Program: python3 snake.py
-
-## Credit:
-  * fruit.png, tutorial - https://medium.com/towards-entrepreneurship/building-a-snake-game-in-python-9f5293285e10
-  * Sound: Angry Birds Theme Song.
+### Screenshots/Video
+##
+* Download Game Preview: ![snake gameplay video](readme_display/snake.mp4)
+###
+![snake picture](readme_display/snake_game.png)
