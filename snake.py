@@ -8,9 +8,9 @@ def help_instructions():
     """Displays available commands/keypresses to user."""
     help = """
 The Snake Moves Continously in Direction its Facing, As you Consume Fruit
-your Points Increase, However your Body gets Longer too. Once Certain
+your Points Increase, However your Body gets Longer Too. Once Certain
 Point Levels have been Achieved the Speed of the Game shall Increase, 
-Don't Blink or You'll Miss the Action!.
+Don't Blink or You'll Miss the Action!
 
 Available Commands:
   * Up (keypad): Moves Snake Up.
