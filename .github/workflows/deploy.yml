@@ -26,10 +26,7 @@ jobs:
 
       - name: Build web version
         run: |
-          # Build the project
-          # --no_cache ensures a clean build
-          # --build flag generates the web folder
-          pygbag --build --no_cache .
+          pygbag --build .
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
