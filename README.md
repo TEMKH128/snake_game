@@ -1,3 +1,9 @@
+## 🎮 Play Online
+
+**[▶️ Play Snake Game in your browser!](https://temkh128.github.io/snake_game/)**
+
+---
+
 ### Description/Features:
 ##
 * Snake moves (controlled by keypad) and eats fruits (Increases score).
